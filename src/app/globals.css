@@ -4,6 +4,14 @@
 
 
 
-.homepage-img {
+.hero-section {
   height: 92vh;
+}
+
+.hero-div {
+  transform: translate(-50%, -50%);
+}
+
+.text-shadow {
+  text-shadow: black 0 0 1px;
 }

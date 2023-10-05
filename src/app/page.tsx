@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <>
       <section className="bg-blue-400 h-screen relative select-none text-white text-center">
-        <div className="absolute top-1/3 left-1/2 hero-div flex items-center gap-32">
-          <Image src={'/brandon.JPG'} height={200} width={200} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop" />
+        <div className="absolute top-1/3 left-1/2 hero-div flex items-center gap-24">
+          <Image src={'/brandon.JPG'} height={250} width={250} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop" />
           <div>
-            <h1 className="text-5xl font-semibold">Brandon McConathy</h1>
-            <h2 className="text-3xl my-2">Software Developer</h2>
-            <ul className="flex justify-center gap-4 text-lg">
+            <h1 className="text-6xl font-semibold">Brandon McConathy</h1>
+            <h2 className="text-4xl my-2">Software Developer</h2>
+            <ul className="flex justify-center gap-4 text-xl">
               <li>React</li>
               <li>Javascript</li>
               <li>Next</li>

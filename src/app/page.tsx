@@ -33,6 +33,10 @@ export default function Home() {
           <h1>Contact</h1>
         </section>
       </main>
+      <h1 className="mb-96">Test</h1>
+      <h1 className="mb-96">Test</h1>
+      <h1 className="mb-96">Test</h1>
+      <h1 className="mb-96">Test</h1>
     </>
   )
 }

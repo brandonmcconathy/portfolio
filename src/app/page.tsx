@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <section className="bg-blue-400 h-screen relative select-none text-white text-center">
         <div className="absolute top-1/3 left-1/2 hero-div flex items-center gap-24">
-          <Image src={'/brandon.JPG'} height={250} width={250} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop" />
+          <Image src={'/brandon.JPG'} height={225} width={225} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop" />
           <div>
             <h1 className="text-6xl font-semibold">Brandon McConathy</h1>
             <h2 className="text-4xl my-2">Software Developer</h2>

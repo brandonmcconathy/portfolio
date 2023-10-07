@@ -19,3 +19,25 @@
 .box-pop {
   box-shadow: 0 3px 10px rgb(0,0,0,0.2);
 }
+
+.fade-in {
+  animation: fadeInAnimation ease 4s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.delay-3000 {
+  animation-delay: 3s;
+}
+
+.delay-4000 {
+  animation-delay: 4s;
+}

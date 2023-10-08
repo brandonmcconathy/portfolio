@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
 
-
-.hero-section {
-  height: 92vh;
+.hero-height {
+  height: 60vh;
 }
 
 .hero-div {

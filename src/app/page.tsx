@@ -4,8 +4,8 @@ import Navbar from "./components/navbar"
 export default function Home() {
   return (
     <>
-      <section className="bg-blue-400 h-screen relative select-none text-white text-center">
-        <div className="absolute top-1/3 left-1/2 hero-div flex items-center gap-24">
+      <section className="bg-blue-400 hero-height relative select-none text-white text-center">
+        <div className="absolute top-1/2 left-1/2 hero-div flex items-center gap-24">
           <Image src={'/brandon.JPG'} height={225} width={225} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop opacity-0 fade-in" />
           <div>
             <h1 className="text-6xl font-semibold opacity-0 fade-in">Brandon McConathy</h1>

@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 bg-red-300 flex justify-between px-10 py-6 text-xl font-bold">
+    <nav className="sticky top-0 bg-red-300 flex justify-between px-10 py-6 text-xl font-bold bottom-shadow">
       <h1>Brandon McConathy</h1>
       <div className="flex gap-10">
         <h2>Projects</h2>

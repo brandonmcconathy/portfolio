@@ -16,6 +16,10 @@
   text-shadow: black 0 0 1px;
 }
 
+.bottom-shadow {
+  box-shadow: gray 0 2px 5px;
+}
+
 .box-pop {
   box-shadow: 0 3px 10px rgb(0,0,0,0.2);
 }

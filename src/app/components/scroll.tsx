@@ -1,14 +1,12 @@
 'use client'
 
-export default function Scroll () {
+export default function Scroll ({ section }: { section: string }) {
 
   const handleScroll = () => {
-    document.getElementById('about').scrollIntoView({behavior: 'smooth'})
+    document.getElementById(section)?.scrollIntoView({behavior: 'smooth'})
   }
 
   return(
-    <div>
-
-    </div>
+    <h2 onClick={handleScroll}>{section}</h2>
   )
 }

@@ -23,16 +23,16 @@ export default function Home() {
       </section>
       <Navbar />
       <main>
-        <section id="about">
+        <section id="About">
           <h1>About</h1>
         </section>
-        <section id="projects">
+        <section id="Projects">
           <h1>Projects</h1>
         </section>
-        <section id="hobbies">
+        <section id="Hobbies">
           <h1>Hobbies</h1>
         </section>
-        <section id="contact">
+        <section id="Contact">
           <h1>Contact</h1>
         </section>
       </main>

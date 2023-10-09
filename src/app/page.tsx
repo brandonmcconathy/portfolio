@@ -15,7 +15,7 @@ export default function Home() {
               <li>Javascript</li>
               <li>Next</li>
               <li>CSS</li>
-              <li>HTML</li>
+              <li>Firebase</li>
               <li>SQL</li>
             </ul>
           </div>
@@ -23,13 +23,16 @@ export default function Home() {
       </section>
       <Navbar />
       <main>
-        <section>
+        <section id="about">
+          <h1>About</h1>
+        </section>
+        <section id="projects">
           <h1>Projects</h1>
         </section>
-        <section>
+        <section id="hobbies">
           <h1>Hobbies</h1>
         </section>
-        <section>
+        <section id="contact">
           <h1>Contact</h1>
         </section>
       </main>

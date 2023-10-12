@@ -23,16 +23,20 @@ export default function Home() {
       </section>
       <Navbar />
       <main>
-        <section id="About">
+        <div id='About' className="py-10"></div>
+        <section className="bg-white py-10">
           <h1>About</h1>
         </section>
-        <section id="Projects">
+        <div id='Projects' className="py-10"></div>
+        <section className="bg-white py-10">
           <h1>Projects</h1>
         </section>
-        <section id="Hobbies">
+        <div id='Hobbies' className="py-10"></div>
+        <section className="bg-white py-10">
           <h1>Hobbies</h1>
         </section>
-        <section id="Contact">
+        <div id='Contact' className="py-10"></div>
+        <section className="bg-white py-10">
           <h1>Contact</h1>
         </section>
       </main>

@@ -24,19 +24,19 @@ export default function Home() {
       <Navbar />
       <main>
         <div id='About' className="py-10"></div>
-        <section className="bg-white py-10">
+        <section className="bg-white p-10">
           <h1>About</h1>
         </section>
         <div id='Projects' className="py-10"></div>
-        <section className="bg-white py-10">
+        <section className="bg-white p-10">
           <h1>Projects</h1>
         </section>
         <div id='Hobbies' className="py-10"></div>
-        <section className="bg-white py-10">
+        <section className="bg-white p-10">
           <h1>Hobbies</h1>
         </section>
         <div id='Contact' className="py-10"></div>
-        <section className="bg-white py-10">
+        <section className="bg-white p-10">
           <h1>Contact</h1>
         </section>
       </main>

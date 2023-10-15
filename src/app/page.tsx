@@ -22,22 +22,22 @@ export default function Home() {
         </div>
       </section>
       <Navbar />
-      <main>
+      <main className="mb-64">
         <div id='About' className="py-10"></div>
-        <section className="bg-white p-10">
-          <h1>About</h1>
+        <section className="bg-white px-10 py-2">
+          <h1 className="text-2xl font-bold">About</h1>
         </section>
         <div id='Projects' className="py-10"></div>
-        <section className="bg-white p-10">
-          <h1>Projects</h1>
+        <section className="bg-white px-10 py-2">
+          <h1 className="text-2xl font-bold">Projects</h1>
         </section>
         <div id='Hobbies' className="py-10"></div>
-        <section className="bg-white p-10">
-          <h1>Hobbies</h1>
+        <section className="bg-white px-10 py-2">
+          <h1 className="text-2xl font-bold">Hobbies</h1>
         </section>
         <div id='Contact' className="py-10"></div>
-        <section className="bg-white p-10">
-          <h1>Contact</h1>
+        <section className="bg-white px-10 py-2">
+          <h1 className="text-2xl font-bold">Contact</h1>
         </section>
       </main>
     </>

@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </section>
       <Navbar />
-      <main className="mb-64">
+      <main className="mb-64 text-center">
         <div id='About' className="py-10"></div>
         <section className="bg-white px-10 py-6 box-pop">
           <h1 className="text-2xl font-bold mb-2">About</h1>
@@ -40,7 +40,7 @@ export default function Home() {
         </section>
         <div id='Contact' className="py-10"></div>
         <section className="bg-white px-10 py-4 box-pop">
-          <h1 className="text-2xl font-bold">Contact</h1>
+          <h1 className="text-2xl font-bold mb-4">Contact</h1>
           <div className="flex flex-col items-center gap-2 text-lg mb-4 font-semibold">
             <h2>brandonmcconathy4321@gmail.com</h2>
             <h2>(909) 539-7947</h2>

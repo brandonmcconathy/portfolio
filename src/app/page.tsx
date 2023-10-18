@@ -1,6 +1,7 @@
 import Image from "next/image"
-import Navbar from "./components/navbar"
 import Link from "next/link"
+import Navbar from "./components/navbar"
+import Project from "./components/project"
 
 export default function Home() {
   return (
@@ -33,6 +34,9 @@ export default function Home() {
         <div id='Projects' className="py-10"></div>
         <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold">Projects</h1>
+          <div>
+            <Project  title="Travis River Jones Foundation" />
+          </div>
         </section>
         <div id='Hobbies' className="py-10"></div>
         <section className="bg-white px-10 py-4 box-pop">

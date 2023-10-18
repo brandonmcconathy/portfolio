@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Navbar from "./components/navbar"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -40,6 +41,14 @@ export default function Home() {
         <div id='Contact' className="py-10"></div>
         <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold">Contact</h1>
+          <div className="flex justify-center gap-10 text-lg">
+            <h2>brandonmcconathy4321@gmail.com</h2>
+            <h2>(909) 539-7947</h2>
+          </div>
+          <div className="flex justify-center gap-10 text-lg">
+            <Link href='https://github.com/brandonmcconathy' target="_blank" >Github</Link>
+            <Link href='https://www.linkedin.com/in/brandon-mcconathy-646b121a9/' target="_blank" >LinkedIn</Link>
+          </div>
         </section>
       </main>
     </>

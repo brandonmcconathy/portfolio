@@ -25,20 +25,20 @@ export default function Home() {
       <Navbar />
       <main className="mb-64">
         <div id='About' className="py-10"></div>
-        <section className="bg-white px-10 py-4">
+        <section className="bg-white px-10 py-6 box-pop">
           <h1 className="text-2xl font-bold mb-2">About</h1>
           <p className="pl-5">I am a motivated software developer with experience in React.js, Javascript, Java, SQL, Next.js, Firebase, HTML, CSS, and Python. I am always eager to step outside my comfort zone and embrace new technologies, viewing each as an exciting opportunity for growth and innovation in my journey as a programmer. I am very excited to grow and improve in the technical industry.</p>
         </section>
         <div id='Projects' className="py-10"></div>
-        <section className="bg-white px-10 py-4">
+        <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold">Projects</h1>
         </section>
         <div id='Hobbies' className="py-10"></div>
-        <section className="bg-white px-10 py-4">
+        <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold">Hobbies</h1>
         </section>
         <div id='Contact' className="py-10"></div>
-        <section className="bg-white px-10 py-4">
+        <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold">Contact</h1>
         </section>
       </main>

@@ -34,8 +34,8 @@ export default function Home() {
         <div id='Projects' className="py-10"></div>
         <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold">Projects</h1>
-          <div>
-            <Project  title="Travis River Jones Foundation" />
+          <div className="flex justify-center flex-wrap">
+            <Project  title="Travis River Jones Foundation" imgPath="/projectimgs/trjfoundation-medium.png" pageLink="https://trjfoundation.vercel.app/" />
           </div>
         </section>
         <div id='Hobbies' className="py-10"></div>

@@ -1,12 +1,14 @@
+import Image from "next/image"
+import Link from "next/link"
 
+export default function Project(props: { title: string, imgPath: string, pageLink: string }) {
 
-export default function Project(props: { title: string }) {
-
-
+  const {title, imgPath, pageLink} = props
 
   return(
-    <div>
-
-    </div>
+    <Link href={pageLink} target="_blank" className="border border-red-700 flex flex-col justify-center items-center">
+      <h1>{title}</h1>
+      <Image src={imgPath} alt="image" width={200} height={200} />
+    </Link>
   )
 }

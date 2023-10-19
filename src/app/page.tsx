@@ -35,7 +35,7 @@ export default function Home() {
         <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold">Projects</h1>
           <div className="flex justify-center flex-wrap">
-            <Project  title="Travis River Jones Foundation" imgPath="/projectimgs/trjfoundation-medium.png" pageLink="https://trjfoundation.vercel.app/" />
+            <Project  title="Travis River Jones Foundation" imgPath="/projectimgs/trjfoundation-medium.png" pageLink="https://trjfoundation.vercel.app/" description="Built using React.js, Next.js, Firebase, Javascript, and Tailwind CSS."/>
           </div>
         </section>
         <div id='Hobbies' className="py-10"></div>

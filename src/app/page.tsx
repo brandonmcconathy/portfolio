@@ -15,7 +15,7 @@ export default function Home() {
             <h2 className="text-4xl my-2 opacity-0 fade-in delay-3000">Software Developer</h2>
             <ul className="flex justify-center gap-4 text-xl opacity-0 fade-in delay-4000">
               <li>React</li>
-              <li>Javascript</li>
+              <li>Typescript</li>
               <li>Java</li>
               <li>Next</li>
               <li>CSS</li>
@@ -30,13 +30,13 @@ export default function Home() {
         <div id='About' className="py-10"></div>
         <section className="bg-white px-10 py-6 box-pop">
           <h1 className="text-2xl font-bold mb-2">About</h1>
-          <p className="pl-5">I am a motivated software developer with experience in React.js, Javascript, Java, SQL, Next.js, Firebase, HTML, CSS, and Python. I am always eager to step outside my comfort zone and embrace new technologies, viewing each as an exciting opportunity for growth and innovation in my journey as a programmer. I am very excited to grow and improve in the technical industry.</p>
+          <p className="pl-5">I am a motivated software developer with experience in React.js, Typescript/Javascript, Java, SQL, Next.js, Firebase, HTML, CSS, and Python. I am always eager to step outside my comfort zone and embrace new technologies, viewing each as an exciting opportunity for growth and innovation in my journey as a programmer. I am very excited to grow and improve in the technical industry.</p>
         </section>
         <div id='Projects' className="py-10"></div>
         <section className="bg-white px-10 py-4 box-pop">
           <h1 className="text-2xl font-bold mb-5">Projects</h1>
           <div className="flex justify-center flex-wrap gap-5">
-            {projects.map((project) => <Project title={project.title} pageLink={project.pageLink} gitHubLink={project.gitHubLink} imgPath={project.imgPath} description={project.description} key={project.id} />)}
+            {projects.map((project) => <Project title={project.title} pageLink={project.pageLink} gitHubLink={project.gitHubLink} imgPath={project.imgPath} tech={project.tech} description={project.description} key={project.id} />)}
           </div>
         </section>
         <div id='Hobbies' className="py-10"></div>

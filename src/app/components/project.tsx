@@ -10,7 +10,7 @@ export default function Project(props: { title: string, imgPath: string, pageLin
       <h1 className="text-xl font-semibold">{title}</h1>
       <Image src={imgPath} alt="image" width={200} height={200} className="rounded-xl" />
       <p className="italic text-sm">{tech}</p>
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center">
         {pageLink == '' ? null : <Link href={pageLink} target="_blank" className="bg-black text-white rounded-lg px-3 py-2 font-semibold hover:bg-gray-700  transition duration-300">Live Website</Link>}
         <Link href={gitHubLink} target="_blank" className="bg-black text-white rounded-lg px-3 py-2 font-semibold hover:bg-gray-700  transition duration-300">Github</Link>
       </div>

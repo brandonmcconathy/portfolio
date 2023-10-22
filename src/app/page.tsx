@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import Navbar from "./components/navbar"
 import Project from "./components/project"
 import { projects } from '../../lib/projects'
 
@@ -25,7 +24,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Navbar />
       <main className="mb-64 text-center">
         <div id='About' className="py-10"></div>
         <section className="bg-white px-10 py-6 box-pop">

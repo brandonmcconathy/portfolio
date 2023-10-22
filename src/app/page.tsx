@@ -6,7 +6,7 @@ import { projects } from '../../lib/projects'
 export default function Home() {
   return (
     <>
-      <section id='top' className="bg-blue-400 hero-height relative select-none text-white text-center">
+      <header id='top' className="bg-blue-400 hero-height relative select-none text-white text-center">
         <div className="absolute top-1/2 left-1/2 hero-div flex items-center gap-24">
           <Image src={'/brandon.JPG'} height={225} width={225} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop opacity-0 fade-in" />
           <div>
@@ -23,26 +23,22 @@ export default function Home() {
             </ul>
           </div>
         </div>
-      </section>
+      </header>
       <main className="mb-64 text-center">
-        <div id='About' className="py-10"></div>
-        <section className="bg-white px-10 py-6 box-pop">
+        <section className="bg-white px-10 py-6 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-2">About</h1>
           <p className="pl-5">I am a motivated software developer with experience in React.js, Typescript/Javascript, Java, SQL, Next.js, Firebase, HTML, CSS, and Python. I am always eager to step outside my comfort zone and embrace new technologies, viewing each as an exciting opportunity for growth and innovation in my journey as a programmer. I am very excited to grow and improve in the technical industry.</p>
         </section>
-        <div id='Projects' className="py-10"></div>
-        <section className="bg-white px-10 py-4 box-pop">
+        <section className="bg-white px-10 py-4 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-5">Projects</h1>
           <div className="flex justify-center flex-wrap gap-5">
             {projects.map((project) => <Project title={project.title} pageLink={project.pageLink} gitHubLink={project.gitHubLink} imgPath={project.imgPath} tech={project.tech} description={project.description} key={project.id} />)}
           </div>
         </section>
-        <div id='Hobbies' className="py-10"></div>
-        <section className="bg-white px-10 py-4 box-pop">
+        <section className="bg-white px-10 py-4 my-5 box-pop">
           <h1 className="text-2xl font-bold">Hobbies</h1>
         </section>
-        <div id='Contact' className="py-10"></div>
-        <section className="bg-white px-10 py-4 box-pop">
+        <section className="bg-white px-10 py-4 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-4">Contact</h1>
           <div className="flex flex-col items-center gap-1 text-lg mb-4 font-semibold">
             <h2>brandonmcconathy4321@gmail.com</h2>

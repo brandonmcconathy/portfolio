@@ -6,9 +6,11 @@ function Hobbies(props: {title: string, imgpath: string, description: string}) {
 
   return(
     <>
-      <h1>{title}</h1>
-      <Image src={imgpath} alt={title} width={200} height={200} />
-      <p>{description}</p>
+      <div className="text-center">
+        <h1 className="text-lg font-semibold">{title}</h1>
+        <p className="">{description}</p>
+      </div>
+      <Image src={imgpath} alt={title} width={200} height={200} className="" />
     </>
   )
 }
@@ -18,7 +20,7 @@ export function HobbiesLeft(props: {title: string, imgpath: string, description:
   const { title, imgpath, description } = props
 
   return(
-    <div className="text-left">
+    <div className="flex justify-between items-center w-1/2 border border-red-700">
       <Hobbies title={title} imgpath={imgpath} description={description} />
     </div>
   )
@@ -29,8 +31,10 @@ export function HobbiesRight(props: {title: string, imgpath: string, description
   const { title, imgpath, description } = props
   
   return(
-    <div className="text-right">
-      <Hobbies title={title} imgpath={imgpath} description={description} />
+    <div className="flex justify-end border border-red-700">
+      <div className="flex justify-between items-center w-1/2 border border-red-700">
+        <Hobbies title={title} imgpath={imgpath} description={description} />
+      </div>
     </div>
   )
 }

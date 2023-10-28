@@ -8,7 +8,7 @@ export default function Project(props: { title: string, imgPath: string, pageLin
   return(
     <div className="bg-blue-200 w-1/3 gap-3 py-4 rounded-xl box-pop flex flex-col justify-center items-center">
       <h1 className="text-xl font-semibold">{title}</h1>
-      <Image src={imgPath} alt="image" width={200} height={200} className="rounded-xl" />
+      <Image src={imgPath} alt="image" width={250} height={250} className="rounded-xl" />
       <p className="italic text-sm">{tech}</p>
       <p>{description}</p>
       <div className="flex gap-4 items-center">

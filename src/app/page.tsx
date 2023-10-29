@@ -42,6 +42,7 @@ export default function Home() {
           <HobbiesLeft title={hobbies[0].title} imgpath={hobbies[0].imgPath} description={hobbies[0].description} />
           <HobbiesRight title={hobbies[1].title} imgpath={hobbies[1].imgPath} description={hobbies[1].description} />
           <HobbiesLeft title={hobbies[2].title} imgpath={hobbies[2].imgPath} description={hobbies[2].description} />
+          <HobbiesRight title={hobbies[3].title} imgpath={hobbies[3].imgPath} description={hobbies[3].description} />
         </section>
         <section className="bg-white px-10 py-4 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-4">Contact</h1>

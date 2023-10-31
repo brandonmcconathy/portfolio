@@ -4,28 +4,12 @@ import Project from "./components/project"
 import { HobbiesLeft, HobbiesRight } from "./components/hobbies"
 import { projects } from '../../lib/projects'
 import { hobbies } from '../../lib/hobbies'
+import Hero from "./components/hero"
 
 export default function Home() {
   return (
     <>
-      <header id='top' className="bg-blue-400 hero-height relative select-none text-white text-center">
-        <div className="absolute top-1/2 left-1/2 hero-div flex items-center gap-24">
-          <Image src={'/brandon.JPG'} height={225} width={225} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop opacity-0 fade-in" />
-          <div>
-            <h1 className="text-6xl font-semibold opacity-0 fade-in">Brandon McConathy</h1>
-            <h2 className="text-4xl my-2 opacity-0 fade-in delay-3000">Software Developer</h2>
-            <ul className="flex justify-center gap-4 text-xl opacity-0 fade-in delay-4000">
-              <li>React</li>
-              <li>Typescript</li>
-              <li>Java</li>
-              <li>Next</li>
-              <li>CSS</li>
-              <li>Firebase</li>
-              <li>SQL</li>
-            </ul>
-          </div>
-        </div>
-      </header>
+      <Hero />
       <main className="mb-64 text-center">
         <section className="bg-white px-10 py-6 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-2">About</h1>

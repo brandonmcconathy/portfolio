@@ -13,7 +13,7 @@ export default function Home() {
       <main className="mb-64 text-center">
         <section className="bg-white px-10 py-6 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-2">About</h1>
-          <p className="px-24">I am a motivated software developer with experience in React.js, Typescript/Javascript, Java, SQL, Next.js, Firebase, HTML, CSS, Python, MATLAB, C#, OOP, RESTful API, and Git. I am always eager to step outside my comfort zone and embrace new technologies, viewing each as an exciting opportunity for growth and innovation in my journey as a programmer. I am very excited to grow and improve in the technical industry.</p>
+          <p className="px-24">I am a motivated software developer with experience in React.js, Typescript/Javascript, Java, SQL, Next.js, Firebase, HTML, CSS, Python, MATLAB, C#, .NET, OOP, RESTful API, and Git. I am always eager to step outside my comfort zone and embrace new technologies, viewing each as an exciting opportunity for growth and innovation in my journey as a programmer. I am very excited to grow and improve in the technical industry.</p>
         </section>
         <section className="bg-white px-10 py-4 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-5">Projects</h1>

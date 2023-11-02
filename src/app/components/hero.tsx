@@ -10,15 +10,7 @@ export default function Hero() {
           <div>
             <h1 className="text-6xl font-semibold opacity-0 fade-in">Brandon McConathy</h1>
             <h2 className="text-4xl my-2 opacity-0 fade-in delay-3000">Software Developer</h2>
-            <ul className="flex justify-center gap-4 text-xl opacity-0 fade-in delay-4000">
-              <li>React</li>
-              <li>Typescript</li>
-              <li>Java</li>
-              <li>Next</li>
-              <li>CSS</li>
-              <li>Firebase</li>
-              <li>SQL</li>
-            </ul>
+            <h3 className="text-lg">(909) 539-7947 | brandonmcconathy4321@gmail.com</h3>
           </div>
         </div>
       </header>

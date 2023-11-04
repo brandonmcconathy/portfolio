@@ -13,6 +13,7 @@ export default function Navbar() {
         <li onClick={handleClick}>About</li>
         <li onClick={handleClick}>Projects</li>
         <li onClick={handleClick}>Hobbies</li>
+        <li onClick={handleClick}>Contact</li>
       </ul>
     </nav>
   )

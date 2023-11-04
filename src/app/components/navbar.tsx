@@ -1,8 +1,10 @@
+'use client'
+
 export default function Navbar() {
 
   const handleClick = (event) => {
-    console.log(event)
-    document.getElementById()?.scrollIntoView
+    console.log(event.target.innerText)
+    document.getElementById(event.target.innerText)?.scrollIntoView()
   }
 
   return(

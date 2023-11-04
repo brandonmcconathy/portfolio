@@ -2,9 +2,9 @@
 
 export default function Navbar() {
 
-  const handleClick = (event) => {
+  const handleClick = (event : any) => {
     console.log(event.target.innerText)
-    document.getElementById(event.target.innerText)?.scrollIntoView()
+    document.getElementById(event.target.innerText)?.scrollIntoView({behavior: 'smooth'})
   }
 
   return(

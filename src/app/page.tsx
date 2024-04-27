@@ -1,19 +1,17 @@
 import Link from "next/link"
 import Project from "./components/project"
+import About from "./components/about"
+import Hero from "./components/hero"
 import { HobbiesLeft, HobbiesRight } from "./components/hobbies"
 import { projects } from '../../lib/projects'
 import { hobbies } from '../../lib/hobbies'
-import Hero from "./components/hero"
 
 export default function Home() {
   return (
     <>
       <Hero />
       <main className="mb-64 text-center">
-        <section id="About" className="bg-white px-10 py-6 my-5 box-pop">
-          <h1 className="text-2xl font-bold mb-2">About</h1>
-          <p className="px-24">I am a motivated software developer with experience in React.js, Typescript/Javascript, Java, SQL, Next.js, Firebase, HTML, CSS, Python, MATLAB, C#, C++, Swift, .NET, OOP, RESTful API, and Git. I am always eager to step outside my comfort zone and embrace new technologies, viewing each as an exciting opportunity for growth and innovation in my journey as a programmer. I am very excited to grow and improve in the technical industry.</p>
-        </section>
+        <About />
         <section id="Projects" className="bg-white px-10 py-4 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-5">Projects</h1>
           <div className="flex justify-center flex-wrap gap-5">

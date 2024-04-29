@@ -1,9 +1,8 @@
 import Link from "next/link"
-import Project from "./components/project"
+import Projects from "./components/projects"
 import About from "./components/about"
 import Hero from "./components/hero"
 import { HobbiesLeft, HobbiesRight } from "./components/hobbies"
-import { projects } from '../../lib/projects'
 import { hobbies } from '../../lib/hobbies'
 
 export default function Home() {
@@ -12,12 +11,7 @@ export default function Home() {
       <Hero />
       <main className="mb-64 text-center">
         <About />
-        <section id="Projects" className="bg-white px-10 py-4 my-5 box-pop">
-          <h1 className="text-2xl font-bold mb-5">Projects</h1>
-          <div className="flex justify-center flex-wrap gap-5">
-            {projects.map((project) => <Project title={project.title} pageLink={project.pageLink} gitHubLink={project.gitHubLink} imgPath={project.imgPath} tech={project.tech} description={project.description} key={project.id} />)}
-          </div>
-        </section>
+        <Projects />
         <section id="Hobbies" className="bg-white px-10 py-4 my-5 box-pop">
           <h1 className="text-2xl font-bold mb-5">Hobbies</h1>
           <HobbiesLeft title={hobbies[0].title} imgpath={hobbies[0].imgPath} description={hobbies[0].description} />

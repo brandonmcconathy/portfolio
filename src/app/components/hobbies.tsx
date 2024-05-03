@@ -8,11 +8,11 @@ export default function Hobbies() {
       {hobbies.map((hobby:any, index:number) => {
         if (index % 2 == 0) {
           return(
-            <HobbiesLeft title={hobby.title} imgpath={hobby.imgPath} description={hobby.description} />
+            <HobbiesLeft title={hobby.title} imgpath={hobby.imgPath} description={hobby.description} key={index} />
           )
         }
         return(
-          <HobbiesRight title={hobby.title} imgpath={hobby.imgPath} description={hobby.description} />
+          <HobbiesRight title={hobby.title} imgpath={hobby.imgPath} description={hobby.description} key={index} />
         )
       })}
     </section>

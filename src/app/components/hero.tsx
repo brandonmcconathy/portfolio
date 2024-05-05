@@ -3,7 +3,7 @@ import Navbar from "./navbar"
 
 export default function Hero() {
   return(
-    <header id='top' className="bg-blue-400 flex h-screen select-none text-white text-center">
+    <header id='top' className="bg-blue-300 flex h-screen select-none text-white text-center">
         <Navbar />
         <div className="flex items-center gap-24 mx-auto">
           <Image src={'/brandon.JPG'} height={225} width={225} alt="Brandon McConathy profile photo" priority className="rounded-full box-pop" />

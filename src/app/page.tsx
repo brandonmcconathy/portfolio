@@ -11,7 +11,6 @@ export default function Home() {
       <main className="mb-64 text-center">
         <About />
         <Projects />
-        <Hobbies />
         <Contact />
       </main>
     </>

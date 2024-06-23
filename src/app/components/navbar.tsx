@@ -12,7 +12,6 @@ export default function Navbar() {
       <ul className="flex flex-col gap-10 text-black font-semibold text-xl">
         <li onClick={handleClick} className="cursor-pointer">About</li>
         <li onClick={handleClick} className="cursor-pointer">Projects</li>
-        <li onClick={handleClick} className="cursor-pointer">Hobbies</li>
         <li onClick={handleClick} className="cursor-pointer">Contact</li>
       </ul>
     </nav>
